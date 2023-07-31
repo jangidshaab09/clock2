@@ -38,12 +38,12 @@
 }, 1000);
 
 function getdayName( number){
-    day=[ "sunday" , "Monday" ]
+    day=[ "sunday" , "Monday","tuesday","wednesday","thursday","friday","saturday" ]
      return day[number]; 
 }
 
 function getMonthName(number){
-    month =[ "January" , "February" ,"March" , "April" , "May" , "June" ,"July" ]
+    month =[ "January" , "February" ,"March" , "April" , "May" , "June" ,"July","august","september","octber","november","december" ]
     return month[number-1];
 }
 
